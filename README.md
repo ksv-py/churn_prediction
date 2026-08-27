@@ -26,8 +26,8 @@ Python, pandas, scikit-learn, Plotly, and Streamlit.
 ## Run
 
 ```powershell
-C:\Users\kesha\AppData\Local\Programs\Python\Python311\python.exe -m pip install -r requirements.txt
-C:\Users\kesha\AppData\Local\Programs\Python\Python311\python.exe -m streamlit run app.py
+python.exe -m pip install -r requirements.txt
+python.exe -m streamlit run app.py
 ```
 
 The app intentionally stops when the Kaggle source file is missing. It does not create synthetic customer records or imply that replacement data represents the reference project.
